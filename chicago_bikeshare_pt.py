@@ -3,7 +3,6 @@
 # Começando com os imports
 import csv
 import random
-import statistics
 import matplotlib.pyplot as plt
 
 # Vamos ler os dados como uma lista
