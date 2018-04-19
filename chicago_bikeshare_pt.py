@@ -247,6 +247,7 @@ center = round(trip_list_len / 2)
 
 trip_duration_list.sort()
 
+#parte da ideia dessa lógica veio de: https://stackoverflow.com/questions/24101524/finding-median-of-list-in-python/24101655#comment37177662_24101655
 if trip_list_len % 2 == 0:
     median_trip = sum(trip_duration_list[center - 1:center + 1]) / 2.0
 else:
